@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Proxima Nova Regular', system-ui, Tahoma, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+/* header_container */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f6f6f6;
+    padding: 40px 0;
+
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.header_logo img {
+    margin-right: 17px;
+}
+
+.header_logo h1 {
+    color: #181818;
+    font-family: 'Proxima Nova Bold';
+    font-size: 24px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+}
+
+.header_logo p {
+    color: #7b7b7b;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* shoping cart */
+
+.shoping_cart {
+    margin-top: 163px;
+    text-align: center;
+}
+
+.shoping_cart .shoping_cart_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoping_cart_block .shoping_cart_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.shoping_cart_block .shoping_cart_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145.4%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #777777;
+    padding-bottom: 47px;
+}
+
+.shoping_cart_block .shoping_cart_image {
+    padding-bottom: 74px;
+}
+
+.shoping_cart_btn {
+    width: 210px;
+    height: 46px;
+    background-color: #282828;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.shoping_cart_btn a {
+    color: white;
+}
+
+.shoping_cart_btn:hover {
+    background: #535252;
+}
